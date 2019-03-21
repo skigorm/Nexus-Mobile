@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormAluno">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Aluno"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText_NomeAluno"
+            android:layout_width="368dp"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:hint="Nome do Aluno"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <EditText
+            android:id="@+id/editText_Email"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="example@nexus.com"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="167dp" />
+
+        <EditText
+            android:id="@+id/editText_Telefone"
+            android:layout_width="370dp"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:hint="(xx) xxxx-xxxx"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/btn_InserirAluno"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:text="Cadastrar"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="262dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
